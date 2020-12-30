@@ -3,13 +3,15 @@ layout: home
 ---
 
 <section id="about">
-	<div class="container">
+	<div class="container bio">
 	  <div class="avatar">
-		<img width=300px class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+		<img width=200px class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
 	  </div>
-	  <h3>Hello I'm {{ site.author }} a PhD student at Northwestern University.</h3>
-	  <h3>My research area is programming languages with a particular interest in extensible editors and macro technology.</h3>
-	  <h3>You can reach me by <a href="mailto:{{ site.email }}">email</a> or on Twitter at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a>.</h3>
+	  <h4>Hello I'm {{ site.author }} a first-year PhD student in Programming Langauges at Northwestern University.</h4>
+	  <h4>My research focuses on using language-oriented programming (LOP) to improve IDE experiences. Broadly I'm interested in extensible langauges
+		  and editors for extensible langauges. Concretely I'm working on improving <a href="https://docs.racket-lang.org/drracket/">DrRacket's</a>
+		  capabilities as an environment for LOP. If any of these things interest you, feel free to reach out to me. </h4>
+	  <h4>You can reach me by <a href="mailto:{{ site.email }}">email</a> or on Twitter at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a>.</h4>
 	  {% include social.html %}
 	</div>
 </section>

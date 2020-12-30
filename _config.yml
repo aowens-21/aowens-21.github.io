@@ -11,8 +11,10 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://aowens-21.github.io/
-baseurl: https://aowens-21.github.io/
+# url: https://aowens-21.github.io/
+url: /
+
+# baseurl: https://aowens-21.github.io/
 title: Alex Owens
 author: Alex Owens
 description: Personal blog and resume
