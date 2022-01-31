@@ -233,3 +233,12 @@ div.footer{
 .about-container img {
   margin: 30px 0;
 }
+
+.project-list {
+  list-style: none;
+  text-align: left;
+}
+
+.project-list li h2 {
+  font-size: 24px;
+}
